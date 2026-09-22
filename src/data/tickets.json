@@ -1,0 +1,650 @@
+{
+  "tickets": [
+    {
+      "id": "TKT-1001",
+      "customer": {
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@nimbuscloud.io",
+        "company": "Nimbus Cloud",
+        "avatar": "SJ"
+      },
+      "subject": "Payment was charged twice",
+      "description": "I was charged twice for my monthly subscription on the 20th. My bank statement shows two identical charges of $49.00 from SupportDesk within a few minutes of each other. Could you please refund the duplicate charge?",
+      "priority": "High",
+      "status": "In Progress",
+      "category": "Billing",
+      "createdAt": "2026-09-22T10:30:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Hi, I was charged twice for my subscription this month. Can you help me sort this out?",
+          "timestamp": "2026-09-22T10:30:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Hi Sarah, thanks for reaching out. We're looking into the duplicate charge now and will confirm shortly.",
+          "timestamp": "2026-09-22T11:05:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Thank you. Please let me know once it's resolved.",
+          "timestamp": "2026-09-22T11:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1002",
+      "customer": {
+        "name": "Marcus Lee",
+        "email": "marcus.lee@brightpath.com",
+        "company": "BrightPath Studio",
+        "avatar": "ML"
+      },
+      "subject": "Unable to log in after password reset",
+      "description": "I reset my password yesterday but I still can't log into my account. It keeps saying 'invalid credentials' even though I'm using the new password.",
+      "priority": "High",
+      "status": "In Progress",
+      "category": "Login",
+      "createdAt": "2026-09-21T14:12:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "I can't log in even after resetting my password. It says my credentials are invalid.",
+          "timestamp": "2026-09-21T14:12:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Sorry about that, Marcus. Can you confirm which browser you're using? We'll also check for a caching issue on our end.",
+          "timestamp": "2026-09-21T14:40:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "I'm using Chrome on a Mac. Tried an incognito window too, same error.",
+          "timestamp": "2026-09-21T14:55:00Z"
+        },
+        {
+          "id": 4,
+          "sender": "support",
+          "message": "Got it, we've found a stale session token tied to your account and are clearing it now.",
+          "timestamp": "2026-09-21T15:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1003",
+      "customer": {
+        "name": "Priya Nair",
+        "email": "priya.nair@fintrack.app",
+        "company": "FinTrack",
+        "avatar": "PN"
+      },
+      "subject": "Feature request: CSV export for reports",
+      "description": "It would be great if we could export our weekly reports as CSV files. Right now we can only view them in the dashboard, and our finance team needs to import the data into spreadsheets.",
+      "priority": "Low",
+      "status": "Open",
+      "category": "Feature Request",
+      "createdAt": "2026-09-20T09:05:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Any chance we could get CSV export for the weekly reports? We need it for our finance workflow.",
+          "timestamp": "2026-09-20T09:05:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks for the suggestion, Priya! I've logged this with our product team for consideration.",
+          "timestamp": "2026-09-20T10:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1004",
+      "customer": {
+        "name": "David Kim",
+        "email": "david.kim@loopware.co",
+        "company": "Loopware",
+        "avatar": "DK"
+      },
+      "subject": "App crashes when uploading large files",
+      "description": "Every time I try to upload a file larger than 50MB, the app freezes and then crashes completely. This is blocking our team from migrating our archive.",
+      "priority": "High",
+      "status": "Open",
+      "category": "Technical",
+      "createdAt": "2026-09-22T08:47:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "The app crashes every time I upload a file over 50MB. This is blocking a big migration for us.",
+          "timestamp": "2026-09-22T08:47:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks for flagging this, David — escalating to engineering as a priority issue.",
+          "timestamp": "2026-09-22T09:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1005",
+      "customer": {
+        "name": "Elena Rossi",
+        "email": "elena.rossi@vantaworks.eu",
+        "company": "Vanta Works",
+        "avatar": "ER"
+      },
+      "subject": "How do I add a team member to my workspace?",
+      "description": "I can't find the option to invite new team members to my workspace. Is this feature only available on certain plans?",
+      "priority": "Low",
+      "status": "Resolved",
+      "category": "Account",
+      "createdAt": "2026-09-15T13:20:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "I can't find where to invite team members. Is this a paid-plan feature?",
+          "timestamp": "2026-09-15T13:20:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Hi Elena, it's available on all plans — go to Settings > Team > Invite Member. Let me know if you still don't see it.",
+          "timestamp": "2026-09-15T13:45:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Found it, thank you!",
+          "timestamp": "2026-09-15T14:02:00Z"
+        },
+        {
+          "id": 4,
+          "sender": "support",
+          "message": "Glad to hear it! Closing this out, but reach out anytime.",
+          "timestamp": "2026-09-15T14:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1006",
+      "customer": {
+        "name": "Jordan Alvarez",
+        "email": "jordan.alvarez@meshlabs.dev",
+        "company": "Mesh Labs",
+        "avatar": "JA"
+      },
+      "subject": "Refund request for annual plan",
+      "description": "We upgraded to the annual plan by mistake instead of monthly. Could we get a refund and switch back to monthly billing?",
+      "priority": "Medium",
+      "status": "In Progress",
+      "category": "Refund",
+      "createdAt": "2026-09-19T16:32:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "We accidentally upgraded to the annual plan instead of monthly. Can we get a refund and switch back?",
+          "timestamp": "2026-09-19T16:32:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "No problem, Jordan — I've started the refund process and switched your plan back to monthly.",
+          "timestamp": "2026-09-19T17:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1007",
+      "customer": {
+        "name": "Aisha Bello",
+        "email": "aisha.bello@corestack.io",
+        "company": "CoreStack",
+        "avatar": "AB"
+      },
+      "subject": "Two-factor authentication not sending codes",
+      "description": "I enabled 2FA last week and now I'm not receiving the SMS codes needed to log in. I've tried resending several times.",
+      "priority": "High",
+      "status": "Open",
+      "category": "Login",
+      "createdAt": "2026-09-22T07:15:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "I'm not getting my 2FA codes via SMS. I've tried resending multiple times with no luck.",
+          "timestamp": "2026-09-22T07:15:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Sorry for the trouble, Aisha. Can you confirm the country code on the phone number linked to your account?",
+          "timestamp": "2026-09-22T07:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1008",
+      "customer": {
+        "name": "Tom Whitfield",
+        "email": "tom.whitfield@harboranalytics.com",
+        "company": "Harbor Analytics",
+        "avatar": "TW"
+      },
+      "subject": "Dashboard widgets not loading",
+      "description": "Several widgets on our analytics dashboard have been stuck on a loading spinner for the past two days. Refreshing doesn't help.",
+      "priority": "Medium",
+      "status": "In Progress",
+      "category": "Technical",
+      "createdAt": "2026-09-20T11:50:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Some of our dashboard widgets have been stuck loading for two days now.",
+          "timestamp": "2026-09-20T11:50:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks Tom, we're seeing elevated load times on the analytics service and are investigating.",
+          "timestamp": "2026-09-20T12:30:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Appreciate the update, will keep an eye out.",
+          "timestamp": "2026-09-20T12:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1009",
+      "customer": {
+        "name": "Grace Park",
+        "email": "grace.park@lumenote.com",
+        "company": "Lumenote",
+        "avatar": "GP"
+      },
+      "subject": "Can I downgrade my subscription mid-cycle?",
+      "description": "We'd like to downgrade from the Business plan to the Starter plan. Will we be charged a prorated amount or does the change happen at renewal?",
+      "priority": "Low",
+      "status": "Resolved",
+      "category": "Subscription",
+      "createdAt": "2026-09-14T09:00:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Can we downgrade from Business to Starter mid-cycle? How does billing work for that?",
+          "timestamp": "2026-09-14T09:00:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Hi Grace, downgrades take effect at your next renewal date, so there's no proration needed.",
+          "timestamp": "2026-09-14T09:25:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Perfect, that's exactly what I needed to know.",
+          "timestamp": "2026-09-14T09:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1010",
+      "customer": {
+        "name": "Noah Fischer",
+        "email": "noah.fischer@driftlabs.co",
+        "company": "Drift Labs",
+        "avatar": "NF"
+      },
+      "subject": "API rate limit errors during peak hours",
+      "description": "We're hitting 429 rate limit errors consistently between 9-11am. Our current plan should support higher throughput than what we're seeing.",
+      "priority": "High",
+      "status": "Open",
+      "category": "Technical",
+      "createdAt": "2026-09-21T09:40:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "We keep hitting 429 errors from the API during our morning peak. Shouldn't our plan support more throughput?",
+          "timestamp": "2026-09-21T09:40:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks for the detail, Noah. Let me check your plan's configured rate limit against actual usage.",
+          "timestamp": "2026-09-21T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1011",
+      "customer": {
+        "name": "Chloe Martin",
+        "email": "chloe.martin@paperandpine.shop",
+        "company": "Paper & Pine",
+        "avatar": "CM"
+      },
+      "subject": "Invoice missing VAT breakdown",
+      "description": "Our latest invoice doesn't show a VAT breakdown, which we need for our accounting records. Could this be added or resent?",
+      "priority": "Medium",
+      "status": "Resolved",
+      "category": "Billing",
+      "createdAt": "2026-09-16T15:10:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Our last invoice is missing a VAT breakdown, which we need for our records.",
+          "timestamp": "2026-09-16T15:10:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Apologies for that, Chloe — I've generated a corrected invoice with the VAT breakdown and emailed it over.",
+          "timestamp": "2026-09-16T15:50:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Received it, thanks for the quick fix.",
+          "timestamp": "2026-09-16T16:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1012",
+      "customer": {
+        "name": "Ben Okafor",
+        "email": "ben.okafor@relaycommerce.com",
+        "company": "Relay Commerce",
+        "avatar": "BO"
+      },
+      "subject": "Integration with Shopify not syncing orders",
+      "description": "Our Shopify integration stopped syncing new orders three days ago. Older orders are still visible but nothing new is coming through.",
+      "priority": "High",
+      "status": "In Progress",
+      "category": "Technical",
+      "createdAt": "2026-09-19T12:05:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Our Shopify integration hasn't synced any new orders in three days.",
+          "timestamp": "2026-09-19T12:05:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks Ben, we found an expired auth token on the integration and are reissuing it now.",
+          "timestamp": "2026-09-19T12:50:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "How long until orders start flowing again?",
+          "timestamp": "2026-09-19T13:00:00Z"
+        },
+        {
+          "id": 4,
+          "sender": "support",
+          "message": "Should be within the hour — we'll confirm once the backfill completes.",
+          "timestamp": "2026-09-19T13:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1013",
+      "customer": {
+        "name": "Layla Haddad",
+        "email": "layla.haddad@northwindmedia.com",
+        "company": "Northwind Media",
+        "avatar": "LH"
+      },
+      "subject": "Request to change account email address",
+      "description": "I need to update the email address on my account since I'm moving to a new company domain. What's the process for this?",
+      "priority": "Low",
+      "status": "Open",
+      "category": "Account",
+      "createdAt": "2026-09-22T06:55:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "I need to change the email on my account to a new company domain. How do I do this?",
+          "timestamp": "2026-09-22T06:55:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1014",
+      "customer": {
+        "name": "Ryan Cooper",
+        "email": "ryan.cooper@atlasfreight.com",
+        "company": "Atlas Freight",
+        "avatar": "RC"
+      },
+      "subject": "Export report shows incorrect totals",
+      "description": "The monthly export report totals don't match what's shown on the dashboard summary. There's roughly a 12% discrepancy.",
+      "priority": "Medium",
+      "status": "Open",
+      "category": "Technical",
+      "createdAt": "2026-09-21T17:22:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Our exported report totals are about 12% off from the dashboard summary numbers.",
+          "timestamp": "2026-09-21T17:22:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks for the detailed report, Ryan. We'll compare both calculation paths and get back to you.",
+          "timestamp": "2026-09-21T17:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1015",
+      "customer": {
+        "name": "Mei Tanaka",
+        "email": "mei.tanaka@sprucecollective.jp",
+        "company": "Spruce Collective",
+        "avatar": "MT"
+      },
+      "subject": "Question about data retention policy",
+      "description": "Could you clarify how long deleted records are retained before permanent removal? We need this for a compliance review.",
+      "priority": "Low",
+      "status": "Resolved",
+      "category": "Account",
+      "createdAt": "2026-09-12T10:00:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "How long are deleted records retained before permanent removal? Need this for a compliance review.",
+          "timestamp": "2026-09-12T10:00:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Hi Mei, deleted records are retained for 30 days before permanent removal. Happy to send documentation.",
+          "timestamp": "2026-09-12T10:30:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "That would be great, thank you.",
+          "timestamp": "2026-09-12T10:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1016",
+      "customer": {
+        "name": "Owen Bennett",
+        "email": "owen.bennett@ridgelineapps.com",
+        "company": "Ridgeline Apps",
+        "avatar": "OB"
+      },
+      "subject": "Mobile app notifications arriving late",
+      "description": "Push notifications on the mobile app are arriving 20-30 minutes after the actual event. This is causing us to miss time-sensitive alerts.",
+      "priority": "Medium",
+      "status": "Open",
+      "category": "Technical",
+      "createdAt": "2026-09-22T05:30:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Push notifications are arriving 20-30 minutes late on mobile, causing us to miss alerts.",
+          "timestamp": "2026-09-22T05:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1017",
+      "customer": {
+        "name": "Fatima Zahra",
+        "email": "fatima.zahra@brightledger.com",
+        "company": "BrightLedger",
+        "avatar": "FZ"
+      },
+      "subject": "Bulk user import failing validation",
+      "description": "When uploading our CSV of 200 users, the import fails at row 47 with a vague 'validation error' and no details on what's wrong.",
+      "priority": "Medium",
+      "status": "In Progress",
+      "category": "Technical",
+      "createdAt": "2026-09-18T13:15:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Our bulk import of 200 users fails at row 47 with just 'validation error', no details.",
+          "timestamp": "2026-09-18T13:15:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks Fatima, could you share the CSV (with sensitive data removed) so we can reproduce it?",
+          "timestamp": "2026-09-18T13:40:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Sent over via the secure upload link.",
+          "timestamp": "2026-09-18T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1018",
+      "customer": {
+        "name": "Lucas Meyer",
+        "email": "lucas.meyer@fernwayco.com",
+        "company": "Fernway & Co.",
+        "avatar": "LM"
+      },
+      "subject": "Custom domain SSL certificate expired",
+      "description": "Our custom domain is showing an SSL warning to visitors. The certificate appears to have expired and wasn't auto-renewed.",
+      "priority": "High",
+      "status": "Resolved",
+      "category": "Technical",
+      "createdAt": "2026-09-11T08:20:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Our custom domain is showing an SSL warning — the cert seems to have expired.",
+          "timestamp": "2026-09-11T08:20:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Apologies for the disruption, Lucas — we've manually renewed the certificate and confirmed it's live.",
+          "timestamp": "2026-09-11T09:00:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Confirmed working on our end too. Thanks for the fast turnaround.",
+          "timestamp": "2026-09-11T09:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1019",
+      "customer": {
+        "name": "Zara Ahmed",
+        "email": "zara.ahmed@glowfieldstudio.com",
+        "company": "Glowfield Studio",
+        "avatar": "ZA"
+      },
+      "subject": "Request for a dedicated account manager",
+      "description": "As we scale up usage, we'd like to know if a dedicated account manager is available on our current plan or if we'd need to upgrade.",
+      "priority": "Low",
+      "status": "Open",
+      "category": "Subscription",
+      "createdAt": "2026-09-20T14:45:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Is a dedicated account manager available on our plan, or would we need to upgrade?",
+          "timestamp": "2026-09-20T14:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1020",
+      "customer": {
+        "name": "Henry Ford",
+        "email": "henry.ford@castironworks.com",
+        "company": "Cast Iron Works",
+        "avatar": "HF"
+      },
+      "subject": "Search results not returning recent items",
+      "description": "The in-app search isn't returning any items created in the last week, even though they show up fine when browsing manually.",
+      "priority": "Medium",
+      "status": "Resolved",
+      "category": "Technical",
+      "createdAt": "2026-09-13T11:30:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "message": "Search isn't returning anything created in the last week, though I can find them by browsing.",
+          "timestamp": "2026-09-13T11:30:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "support",
+          "message": "Thanks Henry — our search index had fallen behind. We've triggered a manual reindex.",
+          "timestamp": "2026-09-13T12:00:00Z"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "message": "Just checked, recent items are showing up now. Thanks!",
+          "timestamp": "2026-09-13T12:45:00Z"
+        }
+      ]
+    }
+  ]
+}
